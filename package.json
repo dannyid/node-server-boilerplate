@@ -8,11 +8,19 @@
     "start": "node server.js"
   },
   "author": "Danny Shekhtman",
-  "license": "ISC",
+  "license": "CC-BY-NC-SA-3.0",
   "private": true,
   "dependencies": {
     "express": "^4.0.0",
-    "jade": "^1.3.1",
-    "npm": "^1.4.7"
-  }
+    "jade": "^1.3.1"
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/dannyid/node-server-boilerplate.git"
+  },
+  "bugs": {
+    "url": "https://github.com/dannyid/node-server-boilerplate/issues"
+  },
+  "homepage": "https://github.com/dannyid/node-server-boilerplate"
 }
