@@ -5,8 +5,7 @@ var express = require('express'),
     bodyParser =  require( 'body-parser' ),
     app = express(),
     http = require('http'),
-    server = http.createServer(app)
-
+    server = http.createServer(app);
 
 app.use( bodyParser.urlencoded( {extended: true} ) );
 app.use( bodyParser.json() );
